@@ -60,4 +60,4 @@ Needs better coverage but: `phpunit`
 
 Run the following for quick startup assuming you have docker-compose installed:
 
-`docker-compose up -d & chmod 777 -R storage & chmod 777 bootstrap/cache`
+`docker-compose up -d && chmod 777 -R storage && chmod 777 bootstrap/cache`
