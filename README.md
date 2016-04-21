@@ -55,3 +55,9 @@ different then they need seperate endpoints.
 ## Testing
 
 Needs better coverage but: `phpunit`
+
+## Docker (port 8000)
+
+Run the following for quick startup assuming you have docker-compose installed:
+
+`docker-compose up -d & chmod 777 -R storage & chmod 777 bootstrap/cache`
